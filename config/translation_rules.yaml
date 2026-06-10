@@ -1,0 +1,37 @@
+# Translation Rules Configuration
+# Define translation styles and guidelines for different locales
+
+locales:
+  china:
+    style: "Adobe UI Style - Simplified Chinese"
+    terminology_file: "terminology_china.json"
+    
+  singapore:
+    style: "Adobe UI Style - English (Singapore)"
+    terminology_file: "terminology_singapore.json"
+    
+  malaysia:
+    style: "Adobe UI Style - English (Malaysia)"
+    terminology_file: "terminology_malaysia.json"
+    
+  hong_kong:
+    style: "Adobe UI Style - Traditional Chinese"
+    terminology_file: "terminology_hongkong.json"
+    
+  taiwan:
+    style: "Adobe UI Style - Traditional Chinese (Taiwan)"
+    terminology_file: "terminology_taiwan.json"
+    
+  us:
+    style: "Adobe UI Style - English (US)"
+    terminology_file: "terminology_us.json"
+    
+  british:
+    style: "Adobe UI Style - English (UK)"
+    terminology_file: "terminology_british.json"
+
+# Default translation settings
+defaults:
+  preserve_formatting: true
+  maintain_consistency: true
+  validate_terminology: true

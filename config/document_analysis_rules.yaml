@@ -1,0 +1,59 @@
+# Document Analysis Rules Configuration
+# Rules for contract and document analysis
+
+keyword_categories:
+  company_benefits:
+    keywords:
+      - "benefits"
+      - "compensation"
+      - "allowance"
+      - "bonus"
+      - "pension"
+    importance: "high"
+    
+  tax_implications:
+    keywords:
+      - "tax"
+      - "duty"
+      - "levy"
+      - "rate"
+      - "deduction"
+    importance: "high"
+    
+  import_export:
+    keywords:
+      - "import"
+      - "export"
+      - "customs"
+      - "tariff"
+      - "barrier"
+      - "restriction"
+    importance: "high"
+    
+  litigation_risk:
+    keywords:
+      - "litigation"
+      - "lawsuit"
+      - "dispute"
+      - "liability"
+      - "breach"
+      - "penalty"
+    importance: "critical"
+    
+  cash_flow:
+    keywords:
+      - "payment"
+      - "cash"
+      - "liquidity"
+      - "credit"
+      - "receivable"
+      - "payable"
+    importance: "high"
+
+# Analysis settings
+analysis_settings:
+  min_opposing_viewpoints: 2
+  generate_ppt: true
+  generate_pdf: true
+  include_excel_tables: true
+  bilingual_output: true
